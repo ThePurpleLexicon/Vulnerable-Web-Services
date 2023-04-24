@@ -2,6 +2,14 @@
 THE PURPLE LEXICON'S VULNERABLE WEB SERVICES TRAINER
 =====================================================
 
+Installation Instructions:
+---------------------------
+
+1. Change permissions to "TPL Vulnerable Web Service Install.sh" with command: chmod +x "TPL Vulnerable Web Service Install.sh"
+2. Run script to install DVWA and OWASP's Juice Shop with command: .\"TPL Vulnerable Web Service Install.sh"
+
+NOTE: Recommend configuring VMware to use 8 processors. OWASP's Juice Shop will be heavy on the CPU when installing. After installation, you can use 4 processors.
+
 Information about DigiNinja's DVWA:
 -----------------------------------
 
