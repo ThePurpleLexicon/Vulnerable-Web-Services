@@ -28,9 +28,8 @@ cd /var/www/html/
 sudo git clone https://github.com/juice-shop/juice-shop.git --depth 1
 cd juice-shop
 sudo npm install
-sudo npm start
 echo -e "\n${GREEN}OWASP's Juice Shop is installed!${NC}"
 txtfile=$(locate "Vulnerable Web Services Instructions.txt")
-echo -e '\n$Further start-up and configuration instructions found in $txtfile\n\n'
+echo -e '\nFurther start-up and configuration instructions found in $txtfile\ n\n'
 
 
