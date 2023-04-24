@@ -31,7 +31,7 @@ sudo npm install
 sudo npm start
 echo -e "\n${GREEN}OWASP's Juice Shop is installed!"
 cd ~/Desktop
-wget https://github.com/ThePurpleLexicon/OSCP/edit/main/Vulnerable%20Web%20Services%20Instructions.txt
+wget https://github.com/ThePurpleLexicon/VulnerableWebServices/blob/main/Vulnerable%20Web%20Services.txt
 echo -e '\nFurther start-up and configuration instructions found at ~/Desktop/Vulnerable Web Services Instructions.txt\n\n'
 
 
