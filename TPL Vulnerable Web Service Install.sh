@@ -25,13 +25,12 @@ sudo chown www-data "/var/www/html/DVWA/hackable/uploads/"
 sudo chown www-data "/var/www/html/DVWA/config"
 echo -e "\n${GREEN}DVWA is installed.\n" && sleep 5 && echo -e "${YELLOW}Installing OWASP's Juice Shop...\n${NC}"
 cd /var/www/html/
-sudo git clone clone https://github.com/juice-shop/juice-shop.git --depth 1
+sudo git clone https://github.com/juice-shop/juice-shop.git --depth 1
 cd juice-shop
 sudo npm install
 sudo npm start
 echo -e "\n${GREEN}OWASP's Juice Shop is installed!${NC}"
-cd ~/Desktop
-wget https://github.com/ThePurpleLexicon/VulnerableWebServices/blob/main/Vulnerable%20Web%20Services.txt
-echo -e '\n$Further start-up and configuration instructions found at ~/Desktop/Vulnerable Web Services Instructions.txt\n\n'
+txtfile=$(locate "Vulnerable Web Services Instructions.txt")
+echo -e '\n$Further start-up and configuration instructions found in $txtfile\n\n'
 
 
