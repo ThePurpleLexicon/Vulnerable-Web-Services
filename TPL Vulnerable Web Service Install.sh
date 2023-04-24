@@ -31,5 +31,6 @@ sudo npm install
 echo -e "\n${GREEN}OWASP's Juice Shop is installed!${NC}"
 echo -e '\nFurther start-up and configuration instructions found in:'
 locate "Vulnerable Web Services Instructions.txt"
+echo -e "\n\n"
 
 
