@@ -1,0 +1,41 @@
+=====================================================
+THE PURPLE LEXICON'S VULNERABLE WEB SERVICES TRAINER
+=====================================================
+
+Information about DigiNinja's DVWA:
+-----------------------------------
+
+URL: http://localhost/DVWA
+
+IMPORTANT: When you first browse DVWA, follow these steps:
+1. Navigate to Setup / Reset DB (http://localhost/DVWA/setup.php)
+2. At the bottom of the page, click the 'Create / Reset Database' button
+This will create the database you will need to continue. 
+If you ever want to reset the service to it's default state [pre-exploitation ;) ], repeat these steps.
+
+If the service is not running, start or restart Apache2 and MariaDB. Commands:
+sudo service apache2 start
+sudo service mariadb start
+
+All credit and rights for DVWA gbelong to DigiNinja. For more information on DVWA, visit:
+https://github.com/digininja/DVWA
+
+
+Information about OWASP's Juice Shop:
+--------------------------------------
+
+URL: http://localhost:3000 
+
+You will need to start the web server every single to start Kali. To do this, use command:
+cd /var/www/html/juice-shop && sudo npm start
+
+For information regarding viewing the challenge board and resetting Juice Shop for a fresh start, visit:
+https://pwning.owasp-juice.shop/part1/challenges.html
+
+All credit and rights for Juice Shop belong to OWASP. For more infomration on OWASP's Juice Shop, visit:
+https://owasp.org/www-project-juice-shop/
+
+Download The Purple Lexicon's Wallpaper for your desktop here:
+https://github.com/ThePurpleLexicon/OSCP/blob/main/TPL%20Wallpaper.jpg
+
+
