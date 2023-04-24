@@ -43,7 +43,4 @@ https://pwning.owasp-juice.shop/part1/challenges.html
 All credit and rights for Juice Shop belong to OWASP. For more infomration on OWASP's Juice Shop, visit:
 https://owasp.org/www-project-juice-shop/
 
-Download The Purple Lexicon's Wallpaper for your desktop here:
-https://github.com/ThePurpleLexicon/VulnerableWebServices/blob/main/TPL%20Wallpaper.jpg
-
 
