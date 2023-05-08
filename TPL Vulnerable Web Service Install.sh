@@ -9,7 +9,7 @@ echo -e "\nThis script will install DigiNinja's DVWA and OWASP's Juice Shop web 
 sleep 7
 echo -e "\n${YELLOW}Installing DVWA now...${NC}"
 cd /var/www/html
-sudo apt update && sudo apt install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php nodejs npm
+sudo apt update && sudo apt install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php nodejs npm docker.io docker-compose git
 sudo updatedb
 sudo git clone https://github.com/digininja/DVWA.git
 sudo service apache2 start
